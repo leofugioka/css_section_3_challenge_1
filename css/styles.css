@@ -5,6 +5,11 @@
   --margin-thickness: 16px;
 }
 
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .article-container {
   margin: 8px;
   border: 4px solid black;
@@ -16,8 +21,7 @@
   text-align: center;
   text-transform: uppercase;
   background-color: lightgray;
-  margin-top: var(--margin-thickness);
-  margin-bottom: var(--margin-thickness);
+  height: 40px;
 }
 
 .product-picture {
@@ -71,14 +75,18 @@
 
 .btn-add-cart {
   font-size: 20px;
+  font-weight: bold;
   color: white;
   border: none;
   background-color: black;
   text-transform: uppercase;
   cursor: pointer;
+  width: 100%;
+  padding: 20px 0;
 }
 
 .btn-add-cart:hover {
   color: #000000;
   background-color: #ffffff;
+  border-top: 4px solid #000000;
 }
