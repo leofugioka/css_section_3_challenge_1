@@ -7,7 +7,22 @@
 
 .container {
   width: 60%;
-  margin: 0 auto;
+  margin: 36px auto;
+  position: relative;
+}
+
+.container::before {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  content: "SALE";
+  background-color: #db0505;
+  position: absolute;
+  top: -8px;
+  left: -16px;
+  letter-spacing: 2px;
+  padding: 4px;
 }
 
 .article-container {
@@ -51,6 +66,55 @@
 .more-information {
   color: black;
   font-weight: bold;
+  display: inline-block;
+  margin-bottom: var(--margin-thickness);
+}
+
+.color1 {
+  background-color: #000000;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.color2 {
+  background-color: #0033ff;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.color3 {
+  background-color: #ff0000;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.color4 {
+  background-color: #ffd000;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.color5 {
+  background-color: #09ff00;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.color6 {
+  background-color: #dda448;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
 }
 
 .more-information:hover {
